@@ -1,4 +1,16 @@
-# ASV-Subtools: An Open Source Tools for Speaker Recognition
+# Feature Disentanglement Network for Robust Speaker Verification (based on ASV-Subtools)
+
+🚧 This repository is a customized version of [ASV-Subtools]([https://github.com/Snowdar/asv-subtools]), designed for the task of speaker recognition, etc.
+
+## Modifications
+
+- Design network structure for domain adaptation and/or feature disentanglement (TDNN_ssspl.py, resnet_ssspl.py).
+- Developed customized training procedures tailored to the proposed architectures, incorporating multi-task objectives and/or adversarial losses where appropriate (training/trainer_tdnn_ssspl.pt, trainer_resnet_ssspl.py).
+- Revised and extended the data loading pipeline to support the new task structure, including multiple domains, labels, and optional auxiliary features (libs/egs/egs.py).
+
+---
+
+# Original README from ASV-Subtools
 
 ASV-Subtools is developed based on [Pytorch](https://pytorch.org/) and [Kaldi](http://www.kaldi-asr.org/) for the task of speaker recognition, language identification, etc.  
 The 'sub' of 'subtools' means that there are many modular tools and the parts constitute the whole. 
