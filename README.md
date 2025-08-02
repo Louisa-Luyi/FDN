@@ -1,6 +1,6 @@
 # Feature Disentanglement Network for Robust Speaker Verification (based on ASV-Subtools)
 
-🚧 This repository is a customized version of [ASV-Subtools]([https://github.com/Snowdar/asv-subtools]), designed for the task of speaker recognition, etc.
+🚧 This repository is a customized version of [ASV-Subtools]([https://github.com/Snowdar/asv-subtools]), designed for the feature disentanglement for robust speaker verification.
 
 ## Modifications
 
