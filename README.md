@@ -4,9 +4,9 @@
 
 ## Modifications
 
-- Design network structure for domain adaptation and/or feature disentanglement (TDNN_ssspl.py, resnet_ssspl.py, etc).
-- Developed customized training procedures tailored to the proposed architectures, incorporating multi-task objectives and/or adversarial losses where appropriate (training/trainer_tdnn_ssspl.pt, trainer_resnet_ssspl.py, etc).
-- Revised and extended the data loading pipeline to support the new task structure, including multiple domains, labels, and optional auxiliary features (libs/egs/egs.py).
+- Design network structure for domain adaptation and/or feature disentanglement ([libs/model/TDNN_ssspl.py](./pytorch/model/TDNN_ssspl.py), [libs/model/resnet_ssspl.py](./pytorch/model/resnet_ssspl.py), etc).
+- Developed customized training procedures tailored to the proposed architectures, incorporating multi-task objectives and/or adversarial losses where appropriate ([libs/training/trainer_resnet_ssspl.py](./pytorch/libs/training/trainer_resnet_ssspl.py), [libs/training/trainer_tdnn_ssspl.py](./pytorch/libs/training/trainer_tdnn_ssspl.py), etc).
+- Revised and extended the data loading pipeline to support the new task structure, including multiple domains, labels, and optional auxiliary features ([libs/egs/egs.py](./pytorch/libs/egs/egs.py)).
 
 ---
 
